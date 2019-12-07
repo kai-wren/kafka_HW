@@ -1,7 +1,6 @@
 import java.util.Properties
 
-import org.apache.kafka.clients.producer.{Callback, KafkaProducer, Partitioner, ProducerConfig, ProducerRecord, RecordMetadata}
-import org.apache.kafka.common.Cluster
+import org.apache.kafka.clients.producer.{Callback, KafkaProducer, ProducerConfig, ProducerRecord, RecordMetadata}
 
 object KafkaProducerApp extends App{
 
